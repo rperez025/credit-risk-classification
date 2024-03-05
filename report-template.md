@@ -33,11 +33,18 @@ In this section, describe the analysis you completed for the machine learning mo
 This section describes the balanced accuracy scores, precision, and recall scores for the two machine learning models used for this analysis. Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1: Logistic Regression Model with Original Data
+  
   ![ML Model 1](https://github.com/rperez025/credit-risk-classification/blob/main/Images/ClassificationRptLogRegOriginal.png)
 
+  - ML Model does a good job in predicting both the healthy and the high-risk loans as can be inferred from the high accuracy score of 99.18% and balanced accuracy score of 95.20%. However, we have to take into consideration that the data is imbalanced as 96.77% of the target values (75036 out of 77536) are for the healthy loans.
+
+This model has a precision score of 100% for the healthy loans and 85% for the high-risk loans. This again can be attributed to the imbalance in the data. The precision scores imply that the healthy loans were classified correctly as positive 100% of the times. However, for the high-risk loans, the classification was correct only 85% of the times.
+
+This model has a recall score of 99% for the healthy loans and 91% for the high-risk loans. The scores imply that for all the instances where the loans were actually healthy, 99% of the times they were classified correctly. However, for all the instances where the loans were actually high-risk, they were classified correctly 91% of the times.
 
 
 * Machine Learning Model 2: Logistic Regression Model with Random Oversampling of Data
+  
   ![ML Model 2](https://github.com/rperez025/credit-risk-classification/blob/main/Images/ClassificationRptLogRegROS.png)
 
 ## Summary

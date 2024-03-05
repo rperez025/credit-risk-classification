@@ -26,7 +26,7 @@
      * Printed the classification report.
 * Methods used: I first used the  LogisticRegression model on the original fitted dataset. Upon observation that the data was highly overweighted towards one of the target variables (healthy loans = 0), I employed the RandomOverSampler to reduce the imbalances, and then LogisticRegression was applied to the oversampled data.
 
-## Machine Leanrning Model Results
+## Machine Learning Model Results
 
 This section describes the balanced accuracy scores, precision, and recall scores for the two machine learning models used for this analysis.
 

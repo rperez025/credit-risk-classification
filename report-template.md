@@ -38,7 +38,7 @@ This section describes the balanced accuracy scores, precision, and recall score
 
 
 * Machine Learning Model 2: Logistic Regression Model with Random Oversampling of Data
-  ![Example Image](images/ClassificationRptLogRegROS.png)
+  ![ML Model 2](https://github.com/rperez025/credit-risk-classification/blob/main/Images/ClassificationRptLogRegROS.png)
 
 ## Summary
 

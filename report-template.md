@@ -40,16 +40,21 @@ This section describes the balanced accuracy scores, precision, and recall score
 
   - Machine Learning Model 1 does a good job in predicting both the healthy and the high-risk loans based on the high accuracy score of 99% and balanced accuracy score of 94%. However, I noted that the data is imbalanced as 96.77% of the target values (75036 out of 77536) are for the healthy loans.
     
-  - Next, this model has a precision score of 100% for the healthy loans and 87% for the high-risk loans. This can be attributed to the imbalance in the data (similar to the above). The precision scores imply that the model correctly classified healthy loans as positive 100% of the time. In contrast to the high-risk loans, the model predicted high-risk loans correctly as such only 87% of the times.
+  - Next, this model has a precision score of 100% for the healthy loans and 87% for the high-risk loans. This can be attributed to the imbalance in the data (similar to the above). The precision scores imply that the model correctly classified healthy loans as positive 100% of the time. In contrast to the high-risk loans, the model predicted them correctly as such only 87% of the times.
   
   - Lastly, this model has a recall score of 100% for the healthy loans and 89% for the high-risk loans. The recall scores imply that for all the instances where the loans were actually healthy, 100% of the times they were classified correctly. However, for all the instances where the loans were actually high-risk, they were classified correctly 89% of the times.
-
 
 * Machine Learning Model 2: Logistic Regression Model with Random Oversampling of Data
 
   The following are the key results drawn from the Machine Learning Model 2 results:
   
   ![ML Model 2](https://github.com/rperez025/credit-risk-classification/blob/main/Images/ClassificationRptLogRegROS.png)
+
+  - Machine Learning Model 2 does a great job in predicting both the healthy and the high-risk loans as can be inferred from the high accuracy score of 100% and balanced accuracy score of 96%.
+  
+  - Next, this model has a precision score of 100% for the healthy loans and 87% for the high-risk loans. The precision scores imply that the model correctly classified healthy loans as positive 100% of the times. In contrast to the high-risk loans, the model predicted them correctly as such only 87% of the times.
+
+  - Lastly, this model has a recall score of 100% for the healthy loans and 100% for the high-risk loans. The recall scores imply that for all actual healthy loan or high-risk loan instances, 100% of the times they were classified correctly.
 
 ## Summary
 

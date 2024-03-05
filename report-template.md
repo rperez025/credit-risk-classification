@@ -28,7 +28,7 @@ In this section, describe the analysis you completed for the machine learning mo
      * Printed the classification report.
 * Methods used: I first used the  LogisticRegression model on the original fitted dataset. Upon observation that the data was highly overweighted towards one of the target variables (healthy loans = 0), I employed the RandomOverSampler to reduce the imbalances, and then LogisticRegression was applied to the oversampled data.
 
-## Results
+## Machine Leanrning Model Results
 
 This section describes the balanced accuracy scores, precision, and recall scores for the two machine learning models used for this analysis. Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
@@ -44,7 +44,7 @@ This section describes the balanced accuracy scores, precision, and recall score
   
   - Lastly, this model has a recall score of 100% for the healthy loans and 89% for the high-risk loans. The recall scores imply that for all the instances where the loans were actually healthy, 100% of the times they were classified correctly. However, for all the instances where the loans were actually high-risk, they were classified correctly 89% of the times.
 
-* Machine Learning Model 2: Logistic Regression Model with Random Oversampling of Data
+* Machine Learning Model 2: Logistic Regression Model with RandomOverSampler of Data
 
   The following are the key results drawn from the Machine Learning Model 2 results:
   
@@ -58,8 +58,10 @@ This section describes the balanced accuracy scores, precision, and recall score
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+Based on the Machine Learning Model Results above, the following is a summary of key points:
 
-If you do not recommend any of the models, please justify your reasoning.
+* The Machine Learning Model 2: Logistic Regression Model with RandomOverSampler of Data appears to perform better than the Machine Learning Model 1: Logistic Regression Model with Original Data since it has a better accuracy score (100%) and balanced accuracy score (96%).
+
+* Additionally, the Machine Learning Model 2: Logistic Regression Model with RandomOverSampler of Data maintains higher recall scores of 100% for both healthy and high-risk loans, which indicates no bias towards the classes. When determining the model's usefullness and purpose, any lending/credit services company would prioritize the correct identification of a high-risk loan (1) over a healthy one (0) as it reduces the probabilty of individuals defaulting since it would place importance on correct creditworthiness analysis, which ultimately impacts the company's overall profitability.
+
+In conclusion, based on the above analysis and key points, I would recommend the Machine Learning Model 2: Logistic Regression Model with RandomOverSampler of Data to the company since this method provides better accuracy and recall scores which is integral to a lending/credit services company.

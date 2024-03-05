@@ -33,7 +33,7 @@ In this section, describe the analysis you completed for the machine learning mo
 This section describes the balanced accuracy scores, precision, and recall scores for the two machine learning models used for this analysis. Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1: Logistic Regression Model with Original Data
-  !(images/ClassificationRptLogRegOriginal.png)
+  ![ML Model 1](https://github.com/rperez025/credit-risk-classification/blob/main/Images/ClassificationRptLogRegOriginal.png)
 
 
 

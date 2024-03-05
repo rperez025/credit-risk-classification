@@ -33,12 +33,12 @@ In this section, describe the analysis you completed for the machine learning mo
 This section describes the balanced accuracy scores, precision, and recall scores for the two machine learning models used for this analysis. Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1: Logistic Regression Model with Original Data
-  
+  ![Example Image](images/ClassificationRptLogRegOriginal.png)
 
 
 
-* Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
+* Machine Learning Model 2: Logistic Regression Model with Random Oversampling of Data
+  ![Example Image](images/ClassificationRptLogRegROS.png)
 
 ## Summary
 

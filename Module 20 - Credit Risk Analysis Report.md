@@ -65,3 +65,13 @@ Based on the Machine Learning Model Results above, the following is a summary of
 * Additionally, the Machine Learning Model 2: Logistic Regression Model with RandomOverSampler of Data maintains higher recall scores of 100% for both healthy and high-risk loans, which indicates no bias towards the classes. When determining the model's usefullness and purpose, any lending/credit services company would prioritize the correct identification of a high-risk loan (1) over a healthy one (0) as it reduces the probabilty of individuals defaulting since it would place importance on correct creditworthiness analysis, which ultimately impacts the company's overall profitability.
 
 In conclusion, based on the above analysis and key points, I would recommend the Machine Learning Model 2: Logistic Regression Model with RandomOverSampler of Data to the company since this method provides better accuracy and recall scores which is integral to a lending/credit services company.
+
+## Resources and References
+
+During the challenge, I referenced the following to aid in my understanding and completion of the assignment:
+
+1. Reperformed majority of the class activites by re-watching the class instruction with Dr. A.
+2. I also referenced the following GitHubs to gain an understanding of the code and its organization, and then incorporated my knowledge and practice with the class activities to prepare my scripts.
+   - [hfattor](https://github.com/hfattor/credit-risk-classification/blob/main/Credit_Risk/credit_risk_classification.ipynb)
+   - [saraparveen26](https://github.com/saraparveen26/SupervisedLearning---Credit-Risk-Classification/blob/main/Credit_Risk/credit_risk_classification.ipynb)
+   - [glongo001](https://github.com/glongo001/credit-risk-classification/blob/main/Credit_Risk/credit_risk_classification.ipynb) 
